@@ -32,6 +32,9 @@ target
 .idea
 *.DS_Store
 
+#Browser drivers
+geckodriver
+chromedriver
+
 #comment this when u have changes to the file.
 #testng.xml
-
