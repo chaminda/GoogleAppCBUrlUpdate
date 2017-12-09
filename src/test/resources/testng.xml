@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5">
+    <parameter name="username" value="username"/>
+    <parameter name="password" value="password"/>
+    <parameter name="callbackUrl" value="https://localhost:9443/oauth/callback"/>
+    <parameter name="clientAppName" value="Web client 2"/>
+  <test name="testGoogleWebAppCallbackUrlUpdate">
+    <classes>
+        <class name="com.wso2.iamtest.GoogleWebAppUpdate"/>
+        <!--class name="com.wso2.iamtest.GoogleWebAppUpdateHL"/-->
+    </classes>
+  </test>  
+</suite>
